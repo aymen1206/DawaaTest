@@ -70,9 +70,8 @@ class LoginController extends Controller
            
         }
         else{
-            return redirect()
-            ->route("login")
-            ->with("message",'كلمة المرور او البريد الالكتروني خاطئ   ');
+            $Error='كلمة المرور او البريد الالكتروني خاطئ   ';
+            return view("auth.login" ,compact('Error'));
         }
     }
 

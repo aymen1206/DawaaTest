@@ -19,4 +19,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::post('/Application/Submit', [ApplicationAPIController::class, 'submit']);
+Route::post('/Application/Submit', [ApplicationAPIController::class, 'submit'])->name('API.SubmitForm');

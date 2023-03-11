@@ -50,9 +50,9 @@ class ApplicationAPIController extends Controller
             ]);
            if ($app) {
                 return response()->json([
-                    'status'=>200,
+                    'status'=>201,
                     'message'=> 'Created Succefully'
-                ], 200);
+                ], 201);
             }else{
                 return response()->json([
                     'status'=>500,

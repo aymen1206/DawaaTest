@@ -33,11 +33,16 @@ Login
                         <label for="password" class="col-md-4 col-form-label text-md-end">كلمة المرور</label>
                         <div class="col-md-6">
                             <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
-                            @error('password')
-                            <span class="invalid-feedback" role="alert">
-                                <strong>{{ $message }}</strong>
-                            </span>
-                            @enderror
+                            @php
+                            if (isset($Error )){
+                             @endphp
+                             <br>
+                            <div class="alert alert-danger" role="alert" style="text-align:center;">
+                            {{ $Error }}
+                            </div>
+                            @php
+                            }
+                            @endphp
                         </div>
                     </div>
                     <div class="row mb-0">
