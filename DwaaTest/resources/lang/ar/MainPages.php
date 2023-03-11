@@ -1,0 +1,25 @@
+<?php
+return[
+'lang'=>'اللغة',
+'apps'=>'الطلبات ',
+'TheApplications'=>' طلبات التوظيف',
+'ApplierName'=>'اسم مقدم الطلب',
+'DOB'=>'تاريخ الميلاد',
+'gender'=>'النوع',
+'nationality'=>'الجنسية',
+'file'=>'السيرة الذاتية',
+'operation'=>'المعاملة',
+'Reports'=>'لتقارير',
+'edite'=>'تعديل',
+'editeForm'=>'بيانات الملف الشخصي',
+'username'=>'اسم المستخدم',
+'email'=>'البريد الالكتروني',
+'password'=>'كلمة المرور',
+'phone'=>'رقم الهاتف',
+'Address'=>'العنوان',
+'Attachment'=>'الملف',
+'CoordinatorStatus'=>'تعليق منسق الموارد البشرية (قبول / رفض)',
+'ManagerStatus'=>'تعليق مدير الموارد البشرية (قبول / رفض)',
+'ApplicationNumber'=>'رقم الطلب',
+];
+?>
